@@ -105,7 +105,7 @@ nav li{
 
 
 
-/*-------------location area---------------*/
+/*-------------location session---------------*/
 .location{
     position: relative;
     margin: 0 auto;
@@ -224,6 +224,10 @@ footer{
     }
     .site-header-nav{
         display: none;
+    }
+    .site-main-tea-container{
+        width: 80%;
+        overflow: hidden;
     }
     
 }
