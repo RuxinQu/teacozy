@@ -229,5 +229,9 @@ footer{
         width: 80%;
         overflow: hidden;
     }
+    .box-img{
+        max-width: 100%;
+        height: auto;
+        display: block;
     
 }
