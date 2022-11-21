@@ -1,4 +1,4 @@
-*{
+* {
     font-family: Helvetica;
     color: seashell;
     background-color: black;
@@ -6,52 +6,50 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    
+
 }
-html{
+
+html {
     font-size: 20px;
 }
 
-h2, 
-h4{
-   padding: 10px 0; 
+h2,
+h4 {
+    padding: 10px 0;
 }
 
 /* ---------------header section-----------------*/
-header{
+header {
     position: fixed;
     height: 3.5rem;
     width: 100%;
-    top:0;
+    top: 0;
     z-index: 1;
     border-bottom: 1px solid seashell;
 }
 
-
-.logo{
+.logo {
     float: left;
     height: 2.5rem;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-nav{
+nav {
     display: flex;
     height: 3.5rem;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav li{
+nav li {
     display: inline;
     list-style: none;
     padding-right: 20px;
 }
 
-
-
 /*------------banner section--------------*/
-.site-banner{
+.site-banner {
     display: flex;
     max-width: 60rem;
     height: 35rem;
@@ -63,24 +61,20 @@ nav li{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
-.site-banner .container{
+.site-banner .container {
     background-color: #000;
     width: 100%;
 }
 
-
-
-
 /*------------site main session-----------*/
-.site-main-session{
+.site-main-session {
     display: block;
-    margin-top: 2.5rem; 
+    margin-top: 2.5rem;
 }
 
-.site-main-tea-container{
+.site-main-tea-container {
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -89,24 +83,21 @@ nav li{
     margin: 0 auto;
 }
 
-.box-img{
-    width:300px;
+.box-img {
+    width: 300px;
     height: 200px;
 }
 
-.box-img-middle{
+.box-img-middle {
     margin: 0px 50px;
 }
 
-.box-img-bottom{
+.box-img-bottom {
     margin: 0 25px;
 }
 
-
-
-
 /*-------------location session---------------*/
-.location{
+.location {
     position: relative;
     margin: 0 auto;
     margin-top: 30px;
@@ -120,118 +111,120 @@ nav li{
     background-position: center;
     background-repeat: no-repeat;
 }
-.location-title{
+
+.location-title {
     background-color: transparent;
     position: absolute;
     top: 50px;
 }
-.location-title h2{
+
+.location-title h2 {
     background-color: transparent;
     padding: 0;
     margin: 0;
 }
 
-
-.location-container{
+.location-container {
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.location-box{
+.location-box {
     width: 300px;
     height: 300px;
     display: grid;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
     align-items: center;
     background-color: #000;
     opacity: 1;
 }
 
-.location-box-middle{
+.location-box-middle {
     margin: 0 40px;
 }
 
-
 /*-------------footer---------------*/
-footer{
+footer {
     margin: 20px 0px;
 }
 
-.about h5{
+.about h5 {
     padding-top: 40px;
 }
 
-.copyright{
+.copyright {
     text-align: left;
     margin-left: 20px;
-
 }
 
-@media only screen and (max-width: 1200px){
-    
-}
 
-@media only screen and (max-width: 1000px),(orientation: portrait){
-    .location{
+@media only screen and (max-width: 1000px),
+(orientation: portrait) {
+    .location {
         width: 100%;
         min-height: 1200px;
         overflow: hidden;
-        
     }
-    .location-container{
+
+    .location-container {
         flex-direction: column;
         justify-content: space-between;
     }
-    .location-box-middle{
+
+    .location-box-middle {
         margin: 10% 0;
     }
 
     .box-img-middle,
-    .box-img-bottom{
+    .box-img-bottom {
         margin: 0;
     }
-    .site-main-tea-container{
+
+    .site-main-tea-container {
         width: 50%;
         overflow: hidden;
     }
-    .box-img{
+
+    .box-img {
         max-width: 100%;
         height: auto;
         display: block;
     }
-    .site-main-session h4{
+
+    .site-main-session h4 {
         margin-bottom: 1.5%;
     }
-    
 }
 
-
-@media only screen and (max-width: 920px){
-    .site-banner{
+@media only screen and (max-width: 920px) {
+    .site-banner {
         font-size: 17px;
     }
-    
 }
 
-@media only screen and (max-width: 560px){
-    .site-banner{
-        font-size:16px;  
-    }
-    .location{
+@media only screen and (max-width: 560px) {
+    .site-banner {
         font-size: 16px;
     }
-    .site-header-nav{
+
+    .location {
+        font-size: 16px;
+    }
+
+    .site-header-nav {
         display: none;
     }
-    .site-main-tea-container{
+
+    .site-main-tea-container {
         width: 80%;
         overflow: hidden;
     }
-    .box-img{
+
+    .box-img {
         max-width: 100%;
         height: auto;
         display: block;
-    
+    }
 }
